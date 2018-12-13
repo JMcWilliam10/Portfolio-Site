@@ -28,9 +28,10 @@ img{
     max-width: 100%;
 }
 .icons{
-    font-size: 5em;
+    font-size: 4em;
     text-align: center;
-    padding: 10px;
+    padding: 90px;
+    clear: both;
 }
 
 .wrapper {
@@ -99,6 +100,7 @@ img{
 
 
 }
+
 .none div:nth-child(odd) {
     background: rebeccapurple;
     border: 1px solid black

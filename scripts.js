@@ -1,7 +1,13 @@
 $(document).ready(function(){
-	$('.icons').slideUp(500).show(1000);
+	$('.icons').slideUp(500).slideToggle(1000);
 });
 
-$(document).ready(function(){
-	$('.footer').animate({height: '200px', 3000);
+
+var $sun = $('.sun');
+var $win = $(window);
+
+$win.on('scroll', function() {
+	var top = $win.scrollTop() / 3;
+	$sun.css('transform', 'rotate(' + top + 'deg)');
+
 });
